@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>My first three.js app</title>
+  </head>
+  <body>
+    <div class="inputsContainer">
+      <div class="dropdown">
+        <label for="figures">Figures</label>
+        <div class="select">
+          <select id="figures" name="figures">
+            <option value="Option 1">Куб</option>
+            <option value="Option 2">Сфера</option>
+            <option value="Option 3">Пирамида</option>
+          </select>
+          <span class="focus"></span>
+        </div>
+      </div>
+      <div class="meshValues">
+        <input type="text" />
+      </div>
+      <div class="buttonBlock">
+        <input
+          class="favorite styled"
+          type="button"
+          value="Нарисовать"
+          id="btn"
+        />
+      </div>
+    </div>
+    <div id="delButtonsBlock">
+      <div class="figureIdRow">
+        <p>qweqweqwe</p>
+        <input type="button" value="Del" class="delBtn" />
+      </div>
+    </div>
+    <script src="js/three.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
